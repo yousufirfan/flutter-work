@@ -14,7 +14,7 @@ void main (){
 //if (a<50 && a<b){
   //print("True");
 //}else{
- // print("False");
+  //print("False");
 //}
 //if (a<50 || a<b){
   //print("True");
@@ -23,6 +23,7 @@ void main (){
 //}
 
 //String name = "Robert";
+//print("name : $name");
 //int urdu = 78;
 //print("urdu : $urdu");
 //int english = 45;
@@ -31,7 +32,7 @@ void main (){
 //print("mathematics : $mathematics");
 //int total = (urdu + english + mathematics);
 //print("total : $total");
-//double percentage = (total/300*100);
+ //double percentage = (total/300*100);
 //print("percentage : $percentage");
 
 //int marks = 65;
@@ -51,20 +52,58 @@ void main (){
   //print("Fail");
  //}
 
-int biology = 65;
-int physics = 75;
-int chemistry = 53;
-int math = 94;
-       print ( "--------- MARKSHEET---------" );
-print("biology : $biology");
-print("physics : $physics");
-print("chemistry : $chemistry");
-print("math : $math");
-        print("---------total---------");
-int totalmarks = (biology + physics + chemistry + math);
-print("totalmarks : $totalmarks");
-      print("-----------------------");
-double percentage = (totalmarks/400*100);
-print("percentage : $percentage%");
+//int biology = 65;
+//int physics = 75;
+//int chemistry = 53;
+//int math = 94;
+       //print ( "--------- MARKSHEET---------" );
+//print("biology : $biology");
+//print("physics : $physics");
+//print("chemistry : $chemistry");
+//print("math : $math");
+        //print("---------total---------");
+//int totalmarks = (biology + physics + chemistry + math);
+//print("totalmarks : $totalmarks");
+      //print("-----------------------");
+//double per = (totalmarks/400*100);
+//print("per : $per%");
 
+//int age = 21;
+//int age1 = 43;
+
+//if (age<age1){
+  //print("21 ki age wala banda chota hai 43 ki age wala bara hai");
+//}else {
+  //print("43 ki age wala banda bara hai 21 ki age wala chota");
+//}
+int num = -3;
+
+//if (num>0){
+  //print("number is positive");
+//}else if (num<0){
+  //print("number is negative");
+//}else {
+  //print("number is zero");
+//}
+//int length = 45;
+//int breadth = 54;
+//if (length==breadth){
+  //print("square value");
+//}else {
+  //print("rectangle value");
+//}
+double temperature = 14;
+if (temperature<0){
+  print("freezing weather");
+}else if (temperature>=0 && temperature < 10){
+  print("very cold weather");
+}else if (temperature>=10 && temperature < 20){
+  print("cold weather");
+}else if (temperature>=20 && temperature< 30){
+  print("normal temperature");
+}else if (temperature>=30 && temperature < 40){
+  print("its hot");
+}else if (temperature>=40){
+  print("its very hot");
+}
 }
