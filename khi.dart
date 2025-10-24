@@ -70,9 +70,9 @@ void main (){
   //int age = 21;
   //int age1 = 49;
   //if(age<age1){
-    //print("21 ki umar ka banda chota hai 49 ki umar wale se");
+    //print("21 age boy is younger than 49 year old man");
   //}else {
-    //print("49 ki umar ka banda bara hai 21 ki umar wale se");
+    //print("49 age is older than 21 year young man");
   //}
 
   //int num = 7;
